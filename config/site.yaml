@@ -1,22 +1,22 @@
-title: Notepad
-description: "Blogging is fun"
+title: Morning OpenStack
+description: "Gooood Morninnnng OpenStack."
 author:
-  name: Karol Orzel
-  email: 'karol@rockettheme.com'
+  name: Leslie-Alexandre Denis
+  email: 'leslie@morningopenstack.org'
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'Rework of great Notepad skeleton'
 taxonomies: [tag]
 
 # Owner/author information
 owner:
-  name:           Your Name
-  email:          you@email.com
+  name: Leslie-Alexandre Denis
+  email:  leslie@morningopenstack.org
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:  Your daily source of OpenStack engineering articles :)
   # Social networking links used in footer. Update and remove as you like.
   twitter:        getgrav
   facebook:       getgrav
-  github:         getgrav      
+  github:         getgrav
   instagram:      getgrav
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/+getgrav
@@ -24,10 +24,10 @@ owner:
 logo: /user/themes/notepad/images/logo.png
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -41,5 +41,3 @@ links:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-
-
