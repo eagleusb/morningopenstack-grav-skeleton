@@ -22,16 +22,14 @@
     <link rel="canonical" href="{{ page.url() }}">
     <link href='//fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
+    <link rel="stylesheet" href=" //maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    {% do assets.addCss('theme://css/font-awesome.min.css') %}
+    <!-- {% do assets.addCss('theme://css/font-awesome.min.css') %} -->
     {% do assets.addCss('theme://css/vendor/normalizeb146.css') %}
     {% do assets.addCss('theme://css/vendor/foundation.minb146.css') %}
     {% do assets.addCss('theme://css/custom.css') %}
     {% do assets.addCss('theme://css/styleb146.css') %}
     {% do assets.addCss('theme://css/postb146.css') %}
-    {% do assets.addJs('theme://js/vendor/modernizrb146.js') %}
-
-
     {{ assets.css() }}
 
     <!-- Icons -->
