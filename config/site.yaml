@@ -1,18 +1,18 @@
 title: Morning OpenStack
-description: "Gooood Morninnnng OpenStack."
+description: "Goooood Morning OpenStack : your daily OpenStack cake"
 author:
-  name: Leslie-Alexandre Denis
+  name: Leslie-Alexandre DENIS
   email: 'leslie@morningopenstack.org'
 metadata:
-    description: 'Rework of great Notepad skeleton'
+    description: 'MorningOpenStack aime OpenStack'
 taxonomies: [tag]
 
 # Owner/author information
 owner:
-  name: Leslie-Alexandre Denis
-  email:  leslie@morningopenstack.org
+  name:           Leslie-Alexandre DENIS
+  email:          'leslie@morningopenstack.org'
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:  Your daily source of OpenStack engineering articles :)
+  description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
   twitter:        getgrav
   facebook:       getgrav
@@ -32,11 +32,11 @@ bing_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Featured Posts
+  - title: Lumière sur
     url: /featured
-  - title: Categories
+  - title: Catégories
     url: /categories
-  - title: About
+  - title: A Propos
     url: /about
 
 include: [".htaccess"]
