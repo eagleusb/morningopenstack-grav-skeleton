@@ -1,5 +1,5 @@
 ---
-title: Latest Posts
+title: "Morning OpenStack : dans la peau d'un OpenStack'er"
 
 sitemap:
     changefreq: monthly
@@ -14,9 +14,8 @@ content:
     pagination: true
 
 feed:
-    description: Sample Blog Description
+    description: "Morning OpenStack : dans la peau d'un OpenStack'er"
     limit: 10
 
 pagination: true
 ---
-
