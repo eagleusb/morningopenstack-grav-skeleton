@@ -460,13 +460,6 @@ iframe {
   margin-right: auto;
   max-width: 75rem;
 }
-.summer-disqus {
-  padding: 3.75rem 1.875rem 5.625rem 1.875rem;
-}
-.summer-disqus .summer-comments-header {
-  font-weight: 700;
-  text-transform: uppercase;
-}
 .post-list {
   padding: 0;
   margin: 0;
@@ -570,10 +563,6 @@ iframe {
   }
   .summer-page-container .summer-page-content > div:not(.summer-page-title) p:first-child {
     font-size: 1.625rem;
-  }
-  .summer-disqus {
-    padding-top: 5.3125rem;
-    padding-bottom: 9.375rem;
   }
 }
 @media only screen and (min-width: 70em) {
