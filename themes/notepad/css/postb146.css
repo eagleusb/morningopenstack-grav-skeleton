@@ -102,148 +102,6 @@ html, body, .summer-post-container, .summer-post-header {
   line-height: 1.1;
   text-transform: uppercase;
 }
-
-/* Media Queries */
-
-@media only screen and (min-width: 40.063em) {
-  .post-template .summer-blog-menu ul li a {
-    color: white;
-  }
-  .post-template .summer-blog-menu ul li a:hover {
-    border-bottom: 0.1875rem solid white;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .post-template .summer-post-title h1 {
-    font-size: 3.125rem;
-  }
-}
-@media only screen and (min-width: 70em) {
-  .post-template .summer-post-title h1 {
-    font-size: 4.375rem;
-  }
-}
-@media only screen and (min-width: 90em) {
-  .post-template .summer-post-title h1 {
-    font-size: 5.3125rem;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .post-template .summer-post-content > div:not(.summer-post-title) {
-    margin: -18% auto 0;
-  }
-}
-@media only screen and (min-width: 70em) {
-  .post-template .summer-post-content > div:not(.summer-post-title) {
-    margin: -10% auto 0;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .post-template .summer-post-content > div:not(.summer-post-title) p:first-child {
-    font-size: 1.625rem;
-  }
-}
-@media screen and (max-width: 47em) {
-  .post-template .summer-post-title, .post-template .summer-post-content {
-    font-size: 70%;
-  }
-}
-@media screen and (max-width: 27em) {
-  .post-template .summer-post-title, .post-template .summer-post-content {
-    font-size: 50%;
-  }
-  .post-template button.trigger::before {
-    display: none;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .summer-post-share {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .summer-author-info {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-}
-@media only screen and (min-width: 70em) {
-  .summer-author-info {
-    padding-top: 6.875rem;
-    padding-bottom: 6.875rem;
-  }
-}
-@media only screen and (min-width: 90em) {
-  .summer-author-info {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .summer-author-info .summer-post-author .summer-post-author-avatar {
-    margin-right: 3.125rem;
-    margin-bottom: 0;
-    float: left;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .summer-author-info .summer-post-author {
-    text-align: left;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .summer-page-container .summer-page-title h1 {
-    font-size: 4.375rem;
-    padding-top: 5.625rem;
-    padding-bottom: 5.625rem;
-  }
-}
-@media only screen and (min-width: 70em) {
-  .summer-page-container .summer-page-title h1 {
-    padding-top: 6.875rem;
-    padding-bottom: 6.875rem;
-  }
-}
-@media only screen and (min-width: 90em) {
-  .summer-page-container .summer-page-title h1 {
-    font-size: 5.3125rem;
-    padding-top: 8.125rem;
-    padding-bottom: 8.125rem;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .summer-page-container .summer-page-content > div:not(.summer-page-title) p:first-child {
-    font-size: 1.625rem;
-  }
-}
-@media screen and (max-width: 47em) {
-  .summer-page-container .summer-page-title, .summer-page-container .summer-page-content {
-    font-size: 70%;
-  }
-}
-@media screen and (max-width: 27em) {
-  .summer-page-container .summer-page-title, .summer-page-container .summer-page-content {
-    font-size: 50%;
-  }
-}
-@media only screen and (min-width: 58.125em) {
-  .post-template .row, .page-template .row {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .summer-disqus {
-    padding-top: 5.3125rem;
-    padding-bottom: 9.375rem;
-  }
-}
-@media only screen and (min-width:48em) {
-  .post-list .entry-date {
-    display: inline;
-  }
-}
 .post-template .summer-post-title.background--light h1 {
   color: black;
 }
@@ -669,4 +527,116 @@ iframe {
   font-size: 10px;
   vertical-align: super;
   color: black;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 40.063em) {
+  .post-template .summer-blog-menu ul li a {
+    color: white;
+  }
+  .post-template .summer-blog-menu ul li a:hover {
+    border-bottom: 0.1875rem solid white;
+  }
+  .post-template .summer-post-title h1 {
+    font-size: 3.125rem;
+  }
+  .post-template .summer-post-content > div:not(.summer-post-title) {
+    margin: -18% auto 0;
+  }
+  .post-template .summer-post-content > div:not(.summer-post-title) p:first-child {
+    font-size: 1.625rem;
+  }
+  .summer-post-share {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .summer-author-info {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .summer-author-info .summer-post-author .summer-post-author-avatar {
+    margin-right: 3.125rem;
+    margin-bottom: 0;
+    float: left;
+  }
+  .summer-author-info .summer-post-author {
+    text-align: left;
+  }
+  .summer-page-container .summer-page-title h1 {
+    font-size: 4.375rem;
+    padding-top: 5.625rem;
+    padding-bottom: 5.625rem;
+  }
+  .summer-page-container .summer-page-content > div:not(.summer-page-title) p:first-child {
+    font-size: 1.625rem;
+  }
+  .summer-disqus {
+    padding-top: 5.3125rem;
+    padding-bottom: 9.375rem;
+  }
+}
+@media only screen and (min-width: 70em) {
+  .post-template .summer-post-title h1 {
+    font-size: 4.375rem;
+  }
+  .post-template .summer-post-content > div:not(.summer-post-title) {
+    margin: -10% auto 0;
+  }
+  .summer-author-info {
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;
+  }
+  .summer-page-container .summer-page-title h1 {
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;
+  }
+}
+@media only screen and (min-width: 90em) {
+  .post-template .summer-post-title h1 {
+    font-size: 5.3125rem;
+  }
+  .summer-author-info {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+  .summer-page-container .summer-page-title h1 {
+    font-size: 5.3125rem;
+    padding-top: 8.125rem;
+    padding-bottom: 8.125rem;
+  }
+}
+@media screen and (max-width: 47em) {
+  .post-template .summer-post-title, .post-template .summer-post-content {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 27em) {
+  .post-template .summer-post-title, .post-template .summer-post-content {
+    font-size: 50%;
+  }
+  .post-template button.trigger::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 47em) {
+  .summer-page-container .summer-page-title, .summer-page-container .summer-page-content {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 27em) {
+  .summer-page-container .summer-page-title, .summer-page-container .summer-page-content {
+    font-size: 50%;
+  }
+}
+@media only screen and (min-width: 58.125em) {
+  .post-template .row, .page-template .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width:48em) {
+  .post-list .entry-date {
+    display: inline;
+  }
 }
