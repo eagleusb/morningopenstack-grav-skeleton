@@ -55,7 +55,6 @@ main, .notepad-share-icons, .notepad-disqus {
 }
 .summer-blog-menu .summer-mobile-menu a {
   display: inline-block;
-  outline: none;
   color: black;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -97,7 +96,6 @@ main, .notepad-share-icons, .notepad-disqus {
   display: block;
   width: 100%;
   height: 100%;
-  outline: none;
 }
 .summer-blog-menu ul li.summer-mobile-close-btn {
   padding-right: 1.25rem;
@@ -246,7 +244,7 @@ main, .notepad-share-icons, .notepad-disqus {
   border: 0.0625rem solid #e51843;
 }
 
-/* Navigation */
+/* Pagination */
 
 nav.pagination {
   padding-top: 5.625rem;
