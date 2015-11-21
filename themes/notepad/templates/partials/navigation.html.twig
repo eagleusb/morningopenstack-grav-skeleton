@@ -13,7 +13,7 @@
             {% else %}
                 {% set domain = base_url_absolute %}
             {% endif %}
-            <li><a href="{{ domain }}{{ link.url }}" {% if link.url | contains('http') %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+            <li><a href="{{ domain }}{{ link.url }}" {% if link.url | contains('http') %}target="_blank"{% endif %}><i class="fa fa-connectdevelop"></i> {{ link.title }}</a></li>
         {% endfor %}
         <li><a href="{{ base_url }}/blog.rss" title="Atom/RSS feed"><i class="fa fa-rss"></i> Flux</a></li>
     </ul>
