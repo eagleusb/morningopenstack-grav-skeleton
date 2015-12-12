@@ -380,8 +380,7 @@ html, body, .summer-post-container, .summer-post-header {
   font-weight: 800;
   font-size: 3.125rem;
   padding: 0;
-  padding-top: 4.375rem;
-  padding-bottom: 4.375rem;
+  padding-top: 0.5rem 0;
   margin: 0 auto;
   line-height: 1.1;
   text-align: center;
@@ -557,9 +556,8 @@ iframe {
     text-align: left;
   }
   .summer-page-container .summer-page-title h1 {
-    font-size: 4.375rem;
-    padding-top: 5.625rem;
-    padding-bottom: 5.625rem;
+    font-size: 3.125rem;
+    padding: 0.5rem 0;
   }
   .summer-page-container .summer-page-content > div:not(.summer-page-title) p:first-child {
     font-size: 1.625rem;
@@ -577,8 +575,7 @@ iframe {
     padding-bottom: 6.875rem;
   }
   .summer-page-container .summer-page-title h1 {
-    padding-top: 6.875rem;
-    padding-bottom: 6.875rem;
+    padding: 0.5rem 0;
   }
 }
 @media only screen and (min-width: 90em) {
@@ -590,9 +587,8 @@ iframe {
     padding-bottom: 7.5rem;
   }
   .summer-page-container .summer-page-title h1 {
-    font-size: 5.3125rem;
-    padding-top: 8.125rem;
-    padding-bottom: 8.125rem;
+    font-size: 3.125rem;
+    padding: 0.5rem 0;
   }
 }
 @media screen and (max-width: 47em) {
