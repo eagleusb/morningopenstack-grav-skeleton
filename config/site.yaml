@@ -14,12 +14,12 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        getgrav
-  facebook:       getgrav
-  github:         getgrav
-  instagram:      getgrav
+  twitter:        p0neyto
+  facebook:
+  github:         grumpycatt
+  instagram:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/+getgrav
+  google_plus:    
 
 logo: /user/themes/notepad/images/logo.png
 
