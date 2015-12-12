@@ -3,8 +3,6 @@ description: "Goooood Morning OpenStack : your daily OpenStack cake"
 author:
   name: Leslie-Alexandre DENIS
   email: 'leslie@morningopenstack.org'
-metadata:
-    description: 'MorningOpenStack aime OpenStack'
 taxonomies: [tag]
 
 # Owner/author information
@@ -19,7 +17,7 @@ owner:
   github:         grumpycatt
   instagram:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:
 
 logo: /user/themes/notepad/images/logo.png
 
@@ -33,11 +31,11 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Lumière sur
-    url: /featured
+    url: /le-meilleur-morning-openstack
   - title: Catégories
-    url: /categories
+    url: /les-archives-morning-openstack
   - title: A Propos
-    url: /about
+    url: /a-propos-morning-openstack
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
