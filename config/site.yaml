@@ -1,5 +1,10 @@
 title: Morning OpenStack
 description: "Goooood Morning OpenStack : your daily OpenStack cake"
+metadata:
+    generator: 'Grav'
+    description: "Your page description goes here"
+    keywords: "HTML, CSS, XML, JavaScript"
+    author: "Leslie-Alexandre DENIS"
 author:
   name: Leslie-Alexandre DENIS
   email: 'leslie@morningopenstack.org'
