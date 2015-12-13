@@ -8,28 +8,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
+    <!-- <meta name="description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.description }}{% endif %}" />
+
     {% for meta in page.metadata %}
         <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
-    {% endfor %}
+    {% endfor %} -->
 
     <link rel="canonical" href="{{ page.url() }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    {% do assets.addCss('theme://css/vendor/normalizeb146.css') %}
-    {% do assets.addCss('theme://css/vendor/foundation.minb146.css') %}
-    {% do assets.addCss('theme://css/styleb146.min.css') %}
-    {% do assets.addCss('theme://css/postb146.min.css') %}
-    {% do assets.addCss('theme://css/custom.css') %}
-    {{ assets.css() }}
+        {% do assets.addCss('theme://css/vendor/normalizeb146.css') %}
+        {% do assets.addCss('theme://css/vendor/foundation.minb146.css') %}
+        {% do assets.addCss('theme://css/styleb146.min.css') %}
+        {% do assets.addCss('theme://css/postb146.min.css') %}
+        {% do assets.addCss('theme://css/custom.css') %}
+        {{ assets.css() }}
 
     <!-- Icons -->
     <!-- 16x16 -->
