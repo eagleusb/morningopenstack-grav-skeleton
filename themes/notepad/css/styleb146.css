@@ -378,13 +378,10 @@ nav.pagination .older-posts .fa {
     font-size: 1rem;
   }
   .summer-site-head .summer-site-head-content h2 {
-    font-size: 1rem;
-    padding-bottom: 3rem;
-    font-weight: 700;
+    font-size: 2.125rem;
   }
   .summer-content .summer-index-post {
-    padding-top: 4.375rem;
-    padding-bottom: 4.375rem;
+    padding: 4.375rem 0;
   }
   .summer-content .summer-index-post:first-of-type {
     padding-top: 7.5rem;
@@ -412,9 +409,7 @@ nav.pagination .older-posts .fa {
     font-size: 1rem;
   }
   .summer-site-head .summer-site-head-content h2 {
-    font-size: 1rem;
-    padding-bottom: 3rem;
-    font-weight: 700;
+    font-size: 2.125rem;
   }
   .summer-site-footer .social-icons, .summer-site-footer .copyright {
     width: 49%;
@@ -434,8 +429,7 @@ nav.pagination .older-posts .fa {
     padding-top: 3rem;
   }
   .summer-site-head .summer-site-head-content h2 {
-    font-size: 2rem;
-    padding-bottom: 3rem;
+    font-size: 2.125rem;
   }
 }
 
