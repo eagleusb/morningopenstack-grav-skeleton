@@ -1,6 +1,6 @@
 <footer class="summer-site-footer">
     <div class="copyright">
-         <section><a href="{{ base_url_absolute }}">{{ site.owner.name }}</a> <i class="fa fa-copyright"></i></section>
+         <section><a href="mailto:{{ site.owner.email }}">{{ site.owner.name }}</a> <i class="fa fa-copyright"></i></section>
          <section>Built with <i class="fa fa-heartbeat"></i> and Grav</section>
     </div>
 
@@ -21,27 +21,11 @@
             </span>
         </a>
         {% endif %}
-        {% if site.owner.instagram %}
-        <a href="http://instagram.com/{{ site.owner.instagram }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-instagram fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
         {% if site.owner.github %}
         <a href="http://github.com/{{ site.owner.github }}">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                 <i class="fa fa-github fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-        {% if site.owner.facebook %}
-        <a href="http://facebook.com/{{ site.owner.facebook }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-facebook fa-stack-1x"></i>
             </span>
         </a>
         {% endif %}
