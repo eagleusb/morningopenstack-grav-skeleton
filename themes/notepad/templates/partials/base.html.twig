@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    {% spaceless %}
     {% block head %}
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -49,7 +48,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ theme_url }}/images/apple-touch-icon-144x144-precomposed.png">
 
     {% endblock %}
-    {% endspaceless %}
 </head>
 {% block body %}
     <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
