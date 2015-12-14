@@ -17,7 +17,11 @@
     </div>
     <div class="summer-post-title bg-check">
       <h1>{{ page.title }}</h1>
-      <p><i class="fa fa-code"></i> par <strong>{% if page.metadata.author %}{{ page.metadata.author|e }}{% else %}{{ site.owner.name }}{% endif %}</strong> &#8212; dans {% for tag in page.taxonomy.tag %}<i class="fa fa-hashtag"></i><a href="{{ base_url_absolute }}/tag:{{ tag }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{%if not loop.last %}&nbsp;&comma;&nbsp;{% endif %}{% endfor %} &#8212; <i class="fa fa-history"></i> <strong><time datetime="{{ page.date | date(site.date_long) }}">{{ page.date | date("d M Y") }}</time></strong></p>
+      {% spaceless %}
+      <p>
+        <i class="fa fa-code"></i> par <strong>{% if page.header.metadata.author %}{{ page.header.metadata.author|e }}{% else %}{{ site.owner.name|e }}{% endif %}</strong> &#8212; dans {% for tag in page.taxonomy.tag %}<a href="{{ base_url_absolute }}/tag:{{ tag }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag"><i class="fa fa-expand"></i> {{ tag }}</a>{%if not loop.last %}&nbsp;&comma;&nbsp;{% endif %}{% endfor %} &#8212; <i class="fa fa-history"></i> <strong><time datetime="{{ page.date | date(site.date_long) }}">{{ page.date | date("d M Y") }}</time></strong>
+      </p>
+      {% endspaceless %}
     </div>
     <div class="bg-img"></div>
   </header>
