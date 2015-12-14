@@ -2,29 +2,24 @@ title: Morning OpenStack
 description: "Goooood Morning OpenStack : your daily OpenStack cake"
 metadata:
   generator: 'Grav'
-  description: "Your page description goes here"
-  keywords: "HTML, CSS, XML, JavaScript"
+  description: "Le quotidien d'ingénieurs cloud OpenStack"
+  keywords: "OpenStack, France, virtualisation, cloud, kvm, qemu, linux"
   author: "Leslie-Alexandre DENIS"
+  robots: 'all'
 author:
   name: Leslie-Alexandre DENIS
   email: 'leslie@morningopenstack.org'
 taxonomies: [tag]
+logo: /user/themes/notepad/images/logo.png
 
 # Owner/author information
 owner:
-  name:           Leslie-Alexandre DENIS
-  email:          'leslie@morningopenstack.org'
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        p0neyto
-  facebook:
-  github:         grumpycatt
-  instagram:
-  # For Google Authorship https://plus.google.com/authorship
+  name: Leslie-Alexandre DENIS
+  email: 'leslie@morningopenstack.org'
+  description: Awesome Dude, Awesome Life
+  twitter: p0neyto
+  github: grumpycatt
   google_plus:
-
-logo: /user/themes/notepad/images/logo.png
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
