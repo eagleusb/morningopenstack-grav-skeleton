@@ -14,6 +14,7 @@ license: MIT
 dependencies:
   - pagination
   - feed
+  - sitemap
 
 form:
   validation: loose
