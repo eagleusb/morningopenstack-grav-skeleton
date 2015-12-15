@@ -30,6 +30,7 @@
         {% do assets.addCss('theme://css/vendor/foundation.minb146.css') %}
         {% do assets.addCss('theme://css/styleb146.min.css') %}
         {% do assets.addCss('theme://css/postb146.min.css') %}
+        {% do assets.addCss('theme://css/animate.min.css') %}
         {{ assets.css() }}
     {% endblock %}
 
@@ -67,7 +68,7 @@
                             <i class="fa fa-spin fa-cog"></i>  {{ site.title }}  <i class="fa fa-spin fa-cog"></i>
                         </span>
                     </h1>
-                    <h2 class="summer-blog-description">{{ site.description }}</h2>
+                    <h2 class="summer-blog-description animated lightSpeedIn">{{ site.description }}</h2>
                 </div>
             </header>
         {% endblock %}
