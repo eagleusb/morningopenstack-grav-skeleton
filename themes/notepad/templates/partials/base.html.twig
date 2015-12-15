@@ -26,11 +26,11 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
     {% block stylesheets %}
-        {% do assets.addCss('theme://css/vendor/normalizeb146.css') %}
-        {% do assets.addCss('theme://css/vendor/foundation.minb146.css') %}
+        {% do assets.addCss('theme://css/vendor/normalize.css') %}
+        {% do assets.addCss('theme://css/vendor/foundation.min.css') %}
         {% do assets.addCss('theme://css/vendor/animate.min.css') %}
-        {% do assets.addCss('theme://css/styleb146.min.css') %}
-        {% do assets.addCss('theme://css/postb146.min.css') %}
+        {% do assets.addCss('theme://css/main.min.css') %}
+        {% do assets.addCss('theme://css/post.min.css') %}
         {{ assets.css() }}
     {% endblock %}
 
@@ -64,7 +64,7 @@
                 <div class="summer-site-head-content" >
                     <div class="summer-site-head-bg"></div>
                     <h1 class="summer-blog-title">
-                        <span class="summer-site-head-title-bg">
+                        <span class="summer-site-head-title-bg animated bounceInDown">
                             <i class="fa fa-spin fa-cog"></i>  {{ site.title }}  <i class="fa fa-spin fa-cog"></i>
                         </span>
                     </h1>

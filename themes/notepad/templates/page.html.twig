@@ -3,15 +3,14 @@
 <body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
 {% endblock %}
 {% block header %}{% endblock %}
-            
+
 {% block content %}
     <main id="summer-page-container" class="summer-page-container" role="main">
         <header class="summer-page-header">
             <div class="summer-page-menu-header">
-                <a class="summer-blog-logo" href="{{ basebase_url_absolute_url }}">
-                    <img src="{{ base_url }}{{ site.logo }}" alt="Blog Logo" /></a>
-                </a>
-
+              <a class="summer-blog-logo" href="{{ base_url_absolute }}">
+                <img src="{{ base_url }}{{ site.logo }}" alt="Blog Logo" />
+              </a>
                 {% include 'partials/navigation.html.twig' %}
             </div>
             <div class="summer-page-title row">
