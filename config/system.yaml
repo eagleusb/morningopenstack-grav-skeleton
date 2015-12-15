@@ -36,6 +36,7 @@ assets:
       - https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js
       - https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js
+      - https://cdn.jsdelivr.net/fitvids/1.1.0/jquery.fitvids.js
     externalcss:
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/normalize.min.css
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css
