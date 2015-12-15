@@ -31,10 +31,11 @@ assets:
   js_pipeline: false
   js_minify: true
   collections:
-    external:
+    jquery: system://assets/jquery/jquery-2.1.4.min.js
+    externaljs:
       - https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
+      - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js
       - https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js
-      - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js
 
 errors:
   display: false
