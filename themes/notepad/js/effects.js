@@ -22,7 +22,7 @@ $( document ).ready(function() {
     variableWidth: true
   });
 
-  particlesJS.load('head-particles', 'vendor/particles.json', function() {
+  particlesJS.load('head-particles', 'user/themes/notepad/js/vendor/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
 
