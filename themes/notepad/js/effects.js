@@ -22,7 +22,7 @@ $( document ).ready(function() {
     variableWidth: true
   });
 
-  particlesJS.load('.summer-site-head-content', 'vendor/particles.json', function() {
+  particlesJS.load('head-particles', 'vendor/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
 
