@@ -147,6 +147,7 @@ main, .notepad-share-icons, .notepad-disqus {
   text-align: center;
   background-color: black;
   background-size: cover;
+  position: relative;
 }
 .summer-site-head .summer-site-head-content .summer-site-head-title-bg {
   display: inline-block;
@@ -170,6 +171,11 @@ main, .notepad-share-icons, .notepad-disqus {
   padding-bottom: 3rem;
   font-weight: 700;
   line-height: 1.3;
+}
+head-particles .particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .summer-content .summer-index-post {
   visibility: hidden;
