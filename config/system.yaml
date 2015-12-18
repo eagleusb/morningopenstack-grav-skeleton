@@ -40,11 +40,13 @@ assets:
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js
       - https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js
       - https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
+      - https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js
     externalcss:
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/normalize.min.css
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css
       - https://cdn.jsdelivr.net/animatecss/3.5.0/animate.min.css
       - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+      - https://cdn.jsdelivr.net/g/jquery.slick@1.5.9(slick.css+slick-theme.css)
     fonts:
       - https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext
       - https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext
