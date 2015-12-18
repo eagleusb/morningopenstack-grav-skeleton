@@ -10,6 +10,7 @@ pages:
   process:
     markdown: true
     twig: false
+  expires: 604800
 
 cache:
   enabled: true
@@ -17,25 +18,28 @@ cache:
     method: file
   driver: auto
   prefix: 'g'
+  lifetime: 604800
+  gzip: true
 
 twig:
   cache: true
-  debug: true
+  debug: false
   auto_reload: true
-  autoescape: false
+  autoescape: true
 
 assets:
   css_pipeline: false
-  css_minify: true
-  css_rewrite: true
+  css_minify: false
+  css_rewrite: false
   js_pipeline: false
-  js_minify: true
+  js_minify: false
   collections:
     jquery: https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js
     externaljs:
       - https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js
       - https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js
+      - https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
     externalcss:
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/normalize.min.css
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css
