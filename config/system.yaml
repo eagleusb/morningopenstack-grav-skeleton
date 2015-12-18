@@ -25,7 +25,7 @@ twig:
   cache: true
   debug: false
   auto_reload: true
-  autoescape: true
+  autoescape: false
 
 assets:
   css_pipeline: false
