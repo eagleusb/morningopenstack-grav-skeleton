@@ -9,19 +9,6 @@ $( document ).ready(function() {
   $( ".summer-blog-menu ul li" ).hover(function() { $(this).addClass( "animated pulse" ); } );
   $( ".video iframe" ).wrap( '<div class="flex-video"></div>' );
 
-  $('.footer-carousel').slick({
-    autoplay: true,
-    autoplaySpeed: 2000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: false,
-    infinite: true,
-    fade: true,
-    cssEase: 'linear',
-    adaptiveHeight: false,
-    variableWidth: true
-  });
-
   particlesJS.load('head-particles', 'user/themes/notepad/js/vendor/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
