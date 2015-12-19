@@ -8,6 +8,7 @@ $( document ).ready(function() {
   $( ".summer-page-container .summer-page-content p.with-image" ).addClass( "animated fadeIn" );
   $( ".summer-blog-menu ul li" ).hover(function() { $(this).addClass( "animated pulse" ); } );
   $( ".video iframe" ).wrap( '<div class="flex-video"></div>' );
+  $( ".summer-page-container .summer-page-title h1" ).fitText( { minFontSize: '1rem', maxFontSize: '3.125rem' } );
 
   particlesJS("head-particles", {
     "particles": {
