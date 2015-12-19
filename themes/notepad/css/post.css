@@ -79,7 +79,6 @@ html, body, .summer-post-container, .summer-post-header {
 .post-template .summer-post-title {
   z-index: 1000;
   margin: 0 auto;
-  padding: 0 1.25em;
   text-align: center;
   position: absolute;
   width: 100%;
@@ -195,7 +194,6 @@ html, body, .summer-post-container, .summer-post-header {
   font-weight: bold;
 }
 .post-template .summer-post-content > div:not(.summer-post-title) h1, .post-template .summer-post-content > div:not(.summer-post-title) h2, .post-template .summer-post-content > div:not(.summer-post-title) h3, .post-template .summer-post-content > div:not(.summer-post-title) h4, .post-template .summer-post-content > div:not(.summer-post-title) h5, .post-template .summer-post-content > div:not(.summer-post-title) h6, .post-template .summer-post-content > div:not(.summer-post-title) ul, .post-template .summer-post-content > div:not(.summer-post-title) ol, .post-template .summer-post-content > div:not(.summer-post-title) blockquote, .post-template .summer-post-content > div:not(.summer-post-title) pre, .post-template .summer-post-content > div:not(.summer-post-title) hr {
-  /*max-width: 56.25rem;*/
   margin: 0 auto;
 }
 .post-template .summer-post-content h1 {
@@ -203,12 +201,10 @@ html, body, .summer-post-container, .summer-post-header {
 }
 .post-template .summer-post-content > div:not(.summer-post-title) p {
   margin: 0 auto 2em auto;
-  /*max-width: 56.25rem;*/
 }
 .post-template .summer-post-content > div:not(.summer-post-title) p.with-image {
   text-align: center;
   padding: 3.125rem 0;
-  /*max-width: 75rem;*/
 }
 .post-template .intro-effect-sliced:not(.notrans) .bg-img, .post-template .intro-effect-sliced:not(.notrans) .summer-post-title {
   -webkit-transition-property: -webkit-transform;
@@ -342,31 +338,18 @@ html, body, .summer-post-container, .summer-post-header {
   font-weight: bold;
 }
 .summer-page-container .summer-page-content > div:not(.summer-page-title) h1, .summer-page-container .summer-page-content > div:not(.summer-page-title) h2, .summer-page-container .summer-page-content > div:not(.summer-page-title) h3, .summer-page-container .summer-page-content > div:not(.summer-page-title) h4, .summer-page-container .summer-page-content > div:not(.summer-page-title) h5, .summer-page-container .summer-page-content > div:not(.summer-page-title) h6, .summer-page-container .summer-page-content > div:not(.summer-page-title) ul, .summer-page-container .summer-page-content > div:not(.summer-page-title) ol, .summer-page-container .summer-page-content > div:not(.summer-page-title) blockquote, .summer-page-container .summer-page-content > div:not(.summer-page-title) pre, .summer-page-container .summer-page-content > div:not(.summer-page-title) hr {
-  /*max-width: 56.25rem;*/
   margin-left: auto;
   margin-right: auto;
 }
 .summer-page-container .summer-page-content > div:not(.summer-page-title) p {
   margin: 0 auto 2em auto;
-  /*max-width: 56.25rem;*/
   font-size: 1.125rem;
   text-align: justify;
 }
 .summer-page-container .summer-page-content > div:not(.summer-page-title) p.with-image {
   text-align: center;
   padding: 0 3.125rem;
-  /*max-width: 75rem;*/
 }
-/*.post-template .row, .page-template .row {
-  max-width: 58.125rem;
-  margin-left: -0.9375rem;
-  margin-right: -0.9375rem;
-}*/
-/*.post-template .row p, .page-template .row p {
-  margin: 0 auto 2em auto !important;
-  max-width: 56.25rem !important;
-  font-size: 1.125rem !important;
-}*/
 ::selection {
   background: #e51843;
   color: #fff;
@@ -466,9 +449,6 @@ iframe {
   }
   .summer-page-container .summer-page-title h1 {
     font-size: 3.125rem;
-  }
-  .summer-page-container .summer-page-content > div:not(.summer-page-title) p:first-child {
-    font-size: 1.625rem;
   }
 }
 @media only screen and (min-width: 64.063em) { /* min-width 1025px, large screens */
