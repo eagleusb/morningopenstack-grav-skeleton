@@ -180,8 +180,9 @@ html, body, .summer-post-container, .summer-post-header {
   -moz-osx-font-smoothing: grayscale;
 }
 .post-template .summer-post-content {
-  margin: 0 auto;
-  padding: 0;
+  padding: 0 1.5rem;
+  text-align: justify;
+  margin-top: -10%;
 }
 .post-template .summer-post-content > div:not(.summer-post-title) a, .post-template .summer-post-content > div:not(.summer-post-title) code {
   color: #e51843;
@@ -191,11 +192,11 @@ html, body, .summer-post-container, .summer-post-header {
   font-size: 1.125rem;
 }
 .post-template .summer-post-content > div:not(.summer-post-title) h1, .post-template .summer-post-content > div:not(.summer-post-title) h2, .post-template .summer-post-content > div:not(.summer-post-title) h3, .post-template .summer-post-content > div:not(.summer-post-title) h4, .post-template .summer-post-content > div:not(.summer-post-title) h5, .post-template .summer-post-content > div:not(.summer-post-title) h6 {
-  font-weight: bold;
+  font-weight: 800;
 }
-.post-template .summer-post-content > div:not(.summer-post-title) h1, .post-template .summer-post-content > div:not(.summer-post-title) h2, .post-template .summer-post-content > div:not(.summer-post-title) h3, .post-template .summer-post-content > div:not(.summer-post-title) h4, .post-template .summer-post-content > div:not(.summer-post-title) h5, .post-template .summer-post-content > div:not(.summer-post-title) h6, .post-template .summer-post-content > div:not(.summer-post-title) ul, .post-template .summer-post-content > div:not(.summer-post-title) ol, .post-template .summer-post-content > div:not(.summer-post-title) blockquote, .post-template .summer-post-content > div:not(.summer-post-title) pre, .post-template .summer-post-content > div:not(.summer-post-title) hr {
+/*.post-template .summer-post-content > div:not(.summer-post-title) h1, .post-template .summer-post-content > div:not(.summer-post-title) h2, .post-template .summer-post-content > div:not(.summer-post-title) h3, .post-template .summer-post-content > div:not(.summer-post-title) h4, .post-template .summer-post-content > div:not(.summer-post-title) h5, .post-template .summer-post-content > div:not(.summer-post-title) h6, .post-template .summer-post-content > div:not(.summer-post-title) ul, .post-template .summer-post-content > div:not(.summer-post-title) ol, .post-template .summer-post-content > div:not(.summer-post-title) blockquote, .post-template .summer-post-content > div:not(.summer-post-title) pre, .post-template .summer-post-content > div:not(.summer-post-title) hr {
   margin: 0 auto;
-}
+}*/
 .post-template .summer-post-content h1 {
   font-size: 1.75rem;
 }
