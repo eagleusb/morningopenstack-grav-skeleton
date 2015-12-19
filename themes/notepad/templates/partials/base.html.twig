@@ -48,7 +48,7 @@
 </head>
 {% block body %}
     <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-    {% endblock %}
+{% endblock %}
     {% set home = pages.find(config.system.home.alias) %}
         {% block header %}
             <header class="summer-site-head">
@@ -57,7 +57,7 @@
                     {% include 'partials/navigation.html.twig' %}
                     <div class="clearfix"></div>
                 </div>
-                <div id="head-particles" class="summer-site-head-content" >
+                <div id="head-particles" class="summer-site-head-content">
                     <div class="summer-site-head-bg"></div>
                     <h1 class="summer-blog-title">
                         <span class="summer-site-head-title-bg animated bounceInDown">
