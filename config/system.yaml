@@ -41,7 +41,6 @@ assets:
       - https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js
       - https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
       - https://cdn.jsdelivr.net/nprogress/0.1.6/js/nprogress.min.js
-      - https://cdn.jsdelivr.net/fittext/1.2/jquery.fittext.js
     externalcss:
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/normalize.min.css
       - https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css
