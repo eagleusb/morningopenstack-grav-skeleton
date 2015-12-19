@@ -184,11 +184,6 @@ html, body, .summer-post-container, .summer-post-header {
   margin: 0 auto;
   padding: 0;
 }
-.post-template .summer-post-content > div:not(.summer-post-title) {
-  margin: -25% auto 0;
-  padding-left: 1.875rem;
-  padding-right: 1.875rem;
-}
 .post-template .summer-post-content > div:not(.summer-post-title) a, .post-template .summer-post-content > div:not(.summer-post-title) code {
   color: #e51843;
 }
@@ -202,6 +197,9 @@ html, body, .summer-post-container, .summer-post-header {
 .post-template .summer-post-content > div:not(.summer-post-title) h1, .post-template .summer-post-content > div:not(.summer-post-title) h2, .post-template .summer-post-content > div:not(.summer-post-title) h3, .post-template .summer-post-content > div:not(.summer-post-title) h4, .post-template .summer-post-content > div:not(.summer-post-title) h5, .post-template .summer-post-content > div:not(.summer-post-title) h6, .post-template .summer-post-content > div:not(.summer-post-title) ul, .post-template .summer-post-content > div:not(.summer-post-title) ol, .post-template .summer-post-content > div:not(.summer-post-title) blockquote, .post-template .summer-post-content > div:not(.summer-post-title) pre, .post-template .summer-post-content > div:not(.summer-post-title) hr {
   max-width: 56.25rem;
   margin: 0 auto;
+}
+.post-template .summer-post-content h1 {
+  font-size: 1.75rem;
 }
 .post-template .summer-post-content > div:not(.summer-post-title) p {
   margin: 0 auto 2em auto;
@@ -289,60 +287,6 @@ html, body, .summer-post-container, .summer-post-header {
 .post-template .intro-effect-sliced.modify:not(.notrans) .summer-post-title {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
-}
-.summer-post-share {
-  font-size: 1.875rem;
-  padding: 0;
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
-  border-top: 0.0625rem solid #f2f2f2;
-  color: #e51843;
-}
-.summer-post-share a {
-  display: inline-block;
-  margin: 0 0.9375rem;
-  color: #e51843;
-}
-.summer-author-info {
-  padding: 0;
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
-  background: #f2f2f2;
-}
-.summer-author-info .summer-post-author {
-  padding-left: 1.875rem;
-  padding-right: 1.875rem;
-  text-align: center;
-}
-.summer-author-info .summer-post-author .author-label {
-  display: block;
-  font-size: 1rem;
-  color: gray;
-  font-style: italic;
-}
-.summer-author-info .summer-post-author .author-website {
-  font-size: 1rem;
-}
-.summer-author-info .summer-post-author h1 {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.summer-author-info .summer-post-author > p {
-  font-size: 1.125rem;
-}
-.summer-author-info .summer-post-author > p a {
-  color: #e51843;
-}
-.summer-author-info .summer-post-author .summer-post-author-avatar {
-  width: 12.5rem;
-  height: 12.5rem;
-  border-radius: 50%;
-  float: none;
-  margin-right: 0;
-  margin-bottom: 1.25rem;
 }
 .summer-page-container .summer-page-menu-header {
   width: 100%;
@@ -526,25 +470,6 @@ iframe {
   .post-template .summer-post-title h1 {
     font-size: 3.125rem;
   }
-  .post-template .summer-post-content > div:not(.summer-post-title) {
-    margin: -18% auto 0;
-  }
-  .summer-post-share {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-  .summer-author-info {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-  .summer-author-info .summer-post-author .summer-post-author-avatar {
-    margin-right: 3.125rem;
-    margin-bottom: 0;
-    float: left;
-  }
-  .summer-author-info .summer-post-author {
-    text-align: left;
-  }
   .summer-page-container .summer-page-title h1 {
     font-size: 3.125rem;
   }
@@ -556,12 +481,6 @@ iframe {
   .post-template .summer-post-title h1 {
     font-size: 3.250rem;
   }
-  .post-template .summer-post-content > div:not(.summer-post-title) {
-    margin: -10% auto 0;
-  }
-  .summer-author-info {
-    padding: 6.875rem 0;
-  }
   .summer-page-container .summer-page-title h1 {
     font-size: 3.125rem;
   }
@@ -569,9 +488,6 @@ iframe {
 @media only screen and (min-width: 90em) {
   .post-template .summer-post-title h1 {
     font-size: 3.250rem;
-  }
-  .summer-author-info {
-    padding: 7.5rem 0;
   }
   .summer-page-container .summer-page-title h1 {
     font-size: 3.125rem;
