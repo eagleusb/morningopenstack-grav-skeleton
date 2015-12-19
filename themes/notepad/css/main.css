@@ -130,6 +130,7 @@ main {
   background-color: black;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 .summer-site-head .summer-site-head-content .summer-site-head-title-bg {
   display: inline-block;
@@ -145,11 +146,11 @@ main {
 }
 .summer-site-head .summer-site-head-content h1 {
   padding-top: 3rem;
-  font-size: 0.875rem;
-  margin-bottom: 0.9375rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 .summer-site-head .summer-site-head-content h2 {
-  font-size: 2.5rem;
+  font-size: 2.125rem;
   padding-bottom: 3rem;
   font-weight: 700;
   line-height: 1.3;
@@ -333,16 +334,12 @@ nav.pagination .older-posts .fa {
     background: transparent;
     position: relative;
     width: auto;
-    list-style-type: none;
-    margin: 0;
-    overflow: auto;
     -webkit-transform: none;
     -ms-transform: none;
     -moz-transform: none;
     -o-transform: none;
     transform: none;
     visibility: visible;
-    padding-top: 0;
     padding-bottom: 0;
   }
   .summer-blog-menu ul li {
@@ -365,13 +362,6 @@ nav.pagination .older-posts .fa {
   }
   .summer-tags-container .summer-tags-header {
     font-size: 1.5625rem;
-  }
-  .summer-site-head .summer-site-head-content h1 {
-    padding-top: 3rem;
-    font-size: 1rem;
-  }
-  .summer-site-head .summer-site-head-content h2 {
-    font-size: 2.125rem;
   }
   .summer-content .summer-index-post {
     padding: 4.375rem 0;
@@ -397,13 +387,6 @@ nav.pagination .older-posts .fa {
   }
 }
 @media only screen and (min-width: 64.063em) { /* min-width 1025px, large screens */
-  .summer-site-head .summer-site-head-content h1 {
-    padding-top: 3rem;
-    font-size: 1rem;
-  }
-  .summer-site-head .summer-site-head-content h2 {
-    font-size: 2.125rem;
-  }
   .summer-site-footer .social-icons, .summer-site-footer .copyright {
     width: 49%;
     padding: 5rem;
@@ -418,12 +401,7 @@ nav.pagination .older-posts .fa {
   }
 }
 @media only screen and (min-width: 90.063em) { /* min-width 1441px, xlarge screens */
-  .summer-site-head .summer-site-head-content h1 {
-    padding-top: 3rem;
-  }
-  .summer-site-head .summer-site-head-content h2 {
-    font-size: 2.125rem;
-  }
+
 }
 
 /* Misc */
