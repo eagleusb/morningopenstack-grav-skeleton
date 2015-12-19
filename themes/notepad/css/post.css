@@ -319,6 +319,9 @@ html, body, .summer-post-container, .summer-post-header {
   text-align: center;
   text-transform: uppercase;
 }
+.summer-page-container .summer-page-header {
+  overflow: hidden;
+}
 .summer-page-container .summer-page-content {
   margin: 0 auto;
   padding: 0 0 5rem;
