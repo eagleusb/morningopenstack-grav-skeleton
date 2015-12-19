@@ -1,9 +1,9 @@
 title: Morning OpenStack
 description: "Goooood Morning OpenStack : your daily OpenStack cake"
 metadata:
-  generator: 'Grav'
-  description: "Le quotidien d'ingénieurs cloud OpenStack"
-  keywords: "OpenStack, France, virtualisation, cloud, kvm, qemu, linux"
+  generator: 'awesomegrav'
+  description: "Le quotidien des ingenieurs devOps et cloud OpenStack, et ouai rien que ca"
+  keywords: "OpenStack, France, virtualisation, cloud, kvm, qemu, linux, devops, ansible, puppet"
   author: "Leslie-Alexandre DENIS"
   robots: 'all'
 author:

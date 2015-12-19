@@ -206,16 +206,10 @@ html, body, .summer-post-container, .summer-post-header {
 .post-template .summer-post-content > div:not(.summer-post-title) p {
   margin: 0 auto 2em auto;
   max-width: 56.25rem;
-  font-size: 1.125rem;
-}
-.post-template .summer-post-content > div:not(.summer-post-title) p:first-child {
-  font-size: 1.375rem;
-  font-weight: 300;
 }
 .post-template .summer-post-content > div:not(.summer-post-title) p.with-image {
   text-align: center;
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding: 3.125rem 0;
   max-width: 75rem;
 }
 .post-template .intro-effect-sliced:not(.notrans) .bg-img, .post-template .intro-effect-sliced:not(.notrans) .summer-post-title {
@@ -534,9 +528,6 @@ iframe {
   }
   .post-template .summer-post-content > div:not(.summer-post-title) {
     margin: -18% auto 0;
-  }
-  .post-template .summer-post-content > div:not(.summer-post-title) p:first-child {
-    font-size: 1.625rem;
   }
   .summer-post-share {
     padding-top: 5rem;
