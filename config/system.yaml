@@ -29,10 +29,10 @@ twig:
 
 assets:
   css_pipeline: false
-  css_minify: false
+  css_minify: true
   css_rewrite: false
   js_pipeline: false
-  js_minify: false
+  js_minify: true
   collections:
     jquery: https://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js
     externaljs:
