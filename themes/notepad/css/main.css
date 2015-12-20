@@ -12,9 +12,6 @@ body {
   height: auto;
   min-height: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
-}
 header, main, footer {
   position: relative;
   z-index: 1;
@@ -30,8 +27,7 @@ main {
   padding-bottom: 0;
   margin-right: 0.9375rem;
   float: right;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2.625rem;
   height: 10rem;
 }
@@ -104,14 +100,13 @@ main {
 .summer-site-head .summer-site-head-menu .summer-blog-logo img {
   max-height: 8rem;
 }
-.summer-site-head .summer-site-head-menu .title {
+/*.summer-site-head .summer-site-head-menu .title {
   display: inline-block;
   padding: 0;
   padding-left: 1.25rem;
   height: 5rem;
   line-height: 5rem;
   vertical-align: middle;
-  font-family: "Montserrat", sans-serif;
   font-size: 1.625rem;
   font-weight: 700;
   color: black;
@@ -123,7 +118,7 @@ main {
 }
 .summer-site-head .summer-site-head-menu .title a:hover {
   color: black;
-}
+}*/
 .summer-site-head .summer-site-head-content {
   width: 100%;
   text-align: center;
@@ -223,7 +218,6 @@ main {
   font-size: 0.8125rem;
   color: black;
   margin-top: 1.5625rem;
-  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 .summer-content .summer-index-post .summer-index-post-tags a {
@@ -307,7 +301,6 @@ nav.pagination .older-posts .fa {
   background: #f2f2f2;
 }
 .summer-tags-container .summer-tags-header {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
   color: black;
   text-transform: uppercase;
