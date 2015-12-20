@@ -1,9 +1,9 @@
-{% do assets.addJs('jquery', {'priority':101, 'pipeline':false}) %}
-{% do assets.addJs('externaljs', {'priority':100, 'pipeline':false}) %}
-{% do assets.addJs('theme://js/vendor/background-check.js', {'priority':99, 'pipeline':true}) %}
-{% do assets.addJs('theme://js/vendor/post-header-animations.js', {'priority':98, 'pipeline':true}) %}
-{% do assets.addJs('theme://js/summer.js', {'priority':97, 'pipeline':true}) %}
-{% do assets.addJs('theme://js/effects.js', {'priority':96, 'pipeline':true}) %}
+{% do assets.addJs('jquery', 101) %}
+{% do assets.addJs('externaljs', 100) %}
+{% do assets.addJs('theme://js/vendor/background-check.js', 99) %}
+{% do assets.addJs('theme://js/vendor/post-header-animations.js', 98) %}
+{% do assets.addJs('theme://js/summer.js', 97) %}
+{% do assets.addJs('theme://js/effects.js', 96) %}
 {{ assets.js() }}
 
 {% spaceless %}
