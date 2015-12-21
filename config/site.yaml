@@ -6,6 +6,7 @@ metadata:
   keywords: "OpenStack, France, virtualisation, cloud, kvm, qemu, linux, devops, ansible, puppet"
   author: "Leslie-Alexandre DENIS"
   robots: 'all'
+  google-site-verification: "N4rnAzyFwXe4tvJBfcu4cXXDiuQS-TtVSDxCSU3ykaw"
 author:
   name: Leslie-Alexandre DENIS
   email: 'leslie@morningopenstack.org'
@@ -20,12 +21,6 @@ owner:
   twitter: p0neyto
   github: grumpycatt
   google_plus:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
