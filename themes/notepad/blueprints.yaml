@@ -1,0 +1,20 @@
+name: Notepad-ng
+version: 1.0.0
+description: "Notepad theme by HOSSAIN MOHD FAYSAL ported to **Grav**"
+icon: pencil-square
+author:
+  name: Leslie-Alexandre DENIS
+  email: leslie@morningopenstack.org
+  url: https://www.morningopenstack.org
+homepage: https://github.com/grumpycatt/grav-skeleton-notepad-site
+demo: https://www.morningopenstack.org
+keywords: notepad, theme, modern, fast, responsive, blog
+bugs: https://github.com/grumpycatt/grav-skeleton-notepad-site/issues
+license: MIT
+dependencies:
+  - pagination
+  - feed
+  - sitemap
+
+form:
+  validation: loose

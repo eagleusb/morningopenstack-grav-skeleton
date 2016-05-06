@@ -1,18 +1,17 @@
-name: Notepad
-version: 1.0.3
-description: "Notepad theme by HOSSAIN MOHD FAYSAL ported to **Grav**"
+name: morningopenstack
+version: 1.0.0
+description: "Base on the great Notepad with a lot of customizations, enhancements and fixes"
 icon: pencil-square
 author:
-  name: Team Grav
-  email: devs@getgrav.org
-  url: http://getgrav.org
-homepage: https://github.com/getgrav/grav-skeleton-notepad-site
-demo: http://demo.getgrav.org/notepad-skeleton
+  name: "Leslie-Alexandre DENIS"
+  email: leslie@morningopenstack.org
+  url: https://morningopenstack.org
+homepage: https://github.com/grumpycatt/morningopenstack-grav-skeleton
+demo: https://morningopenstack.org
 keywords: notepad, theme, modern, fast, responsive, blog
-bugs: https://github.com/getgrav/grav-theme-notepad/issues
+bugs: https://github.com/grumpycatt/morningopenstack-grav-skeleton/issues
 license: MIT
 
 form:
   validation: strict
   fields:
-

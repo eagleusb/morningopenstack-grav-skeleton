@@ -6,8 +6,8 @@ data/*
 !data/.*
 plugins/*
 !plugins/.*
-themes/*
-!themes/.*
+#themes/*
+#!themes/.*
 
 # OS Generated
 .DS_Store*
