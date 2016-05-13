@@ -7,7 +7,7 @@
 .cf:after {
   clear: both;
 }
-.summer-post-container, .summer-post-header {
+.summer-post-container, .summer-post-header, .summer-page-container, .summer-page-header {
   height: 100%;
 }
 .summer-post-header-title {
