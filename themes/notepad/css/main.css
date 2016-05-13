@@ -9,8 +9,6 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  height: auto;
-  min-height: 100%;
 }
 header, main, footer {
   position: relative;
