@@ -5,4 +5,4 @@ streams:
     theme:
       type: ReadOnlyStream
       paths:
-        - user/themes/notepad
+        - user/themes/morning
