@@ -1,2 +1,2 @@
-grav-skeleton-notepad-site
+morningopenstack-grav-skeleton
 ==========================
