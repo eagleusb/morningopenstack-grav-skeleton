@@ -1,36 +1,35 @@
-title: Morning OpenStack
-description: "Goooood Morning OpenStack : your daily OpenStack cake"
-metadata:
-  generator: 'awesomegrav'
-  description: "Le quotidien des ingenieurs devOps et cloud OpenStack, et ouai rien que ca"
-  keywords: "OpenStack, France, virtualisation, cloud, kvm, qemu, linux, devops, ansible, puppet"
-  author: "Leslie-Alexandre DENIS"
-  robots: 'all'
-  google-site-verification: "N4rnAzyFwXe4tvJBfcu4cXXDiuQS-TtVSDxCSU3ykaw"
-author:
-  name: Leslie-Alexandre DENIS
-  email: 'leslie@morningopenstack.org'
+title: 'Morning OpenStack'
+description: 'Goooood Morning OpenStack : your daily OpenStack cake'
 taxonomies: [tag]
 logo: /user/themes/notepad/images/logo.png
 
-# Owner/author information
-owner:
-  name: Leslie-Alexandre DENIS
+metadata:
+  generator: 'awesomegrav'
+  description: 'Le quotidien des ingenieurs devOps et cloud OpenStack, et ouai rien que ca'
+  keywords: 'OpenStack, France, virtualisation, cloud, kvm, qemu, linux, devops, ansible, puppet'
+  author: 'Leslie-Alexandre DENIS'
+  robots: 'all'
+  google-site-verification: 'N4rnAzyFwXe4tvJBfcu4cXXDiuQS-TtVSDxCSU3ykaw'
+
+author:
+  name: 'Leslie-Alexandre DENIS'
   email: 'leslie@morningopenstack.org'
-  description: Awesome Dude, Awesome Life
-  twitter: p0neyto
-  github: grumpycatt
-  google_plus:
 
-# Links to include in footer navigation
-# For external links add external: true
+owner:
+  name: 'Leslie-Alexandre DENIS'
+  email: 'leslie@morningopenstack.org'
+  description: 'Awesome Dude, Awesome Life'
+  twitter: 'eagleusb'
+  github: 'gooodmorningopenstack'
+  google_plus: ''
+
 links:
-  - title: Lumière sur
-    url: /le-meilleur-morning-openstack
-  - title: Catégories
-    url: /les-archives-morning-openstack
-  - title: A Propos
-    url: /a-propos-morning-openstack
+  - title: 'Lumière sur'
+    url: '/le-meilleur-morning-openstack'
+  - title: 'Catégories'
+    url: '/les-archives-morning-openstack'
+  - title: 'A Propos'
+    url: '/a-propos-morning-openstack'
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+include: [ ".htaccess" ]
+exclude: [ "lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules" ]
