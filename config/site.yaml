@@ -1,7 +1,7 @@
 title: 'Morning OpenStack'
 description: 'Goooood Morning OpenStack : your daily OpenStack cake'
 taxonomies: [tag]
-logo: /user/themes/notepad/images/logo.png
+logo: /user/themes/morning/images/logo.png
 
 metadata:
   generator: 'awesomegrav'
